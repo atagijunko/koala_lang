@@ -123,7 +123,7 @@ msgstr "認証保留中"
 
 #: common/djangoapps/course_modes/helpers.py:35
 msgid "Verified: Pending Verification"
-msgstr "認証: 保留中"
+msgstr "認証：保留中"
 
 #: common/djangoapps/course_modes/helpers.py:37
 msgid "ID verification pending"
@@ -139,11 +139,11 @@ msgstr "認証付き"
 
 #: common/djangoapps/course_modes/helpers.py:42
 msgid "ID Verified Ribbon/Badge"
-msgstr "ID認証リボン/バッジ"
+msgstr "ID認証リボン／バッジ"
 
 #: common/djangoapps/course_modes/helpers.py:44
 msgid "You're enrolled as an honor code student"
-msgstr "honor code受講者として受講登録されています"
+msgstr "Honor code 受講者として受講登録されています"
 
 #: common/djangoapps/course_modes/helpers.py:45
 #: lms/djangoapps/branding/api.py:210
@@ -153,11 +153,11 @@ msgstr "Honor Code"
 
 #: common/djangoapps/course_modes/helpers.py:47
 msgid "You're enrolled as a professional education student"
-msgstr "professional education 受講者として受講登録されています"
+msgstr "Professional Education 受講者として受講登録されています"
 
 #: common/djangoapps/course_modes/helpers.py:48
 msgid "Professional Ed"
-msgstr "Professional Ed"
+msgstr "Professional Education"
 
 #: common/djangoapps/course_modes/models.py:69
 #: common/lib/xmodule/xmodule/annotatable_module.py:41
@@ -179,7 +179,7 @@ msgstr "表示名"
 
 #: common/djangoapps/course_modes/models.py:75
 msgid "Price"
-msgstr "価格"
+msgstr "料金"
 
 #: common/djangoapps/course_modes/models.py:87
 msgid "Upgrade Deadline"
@@ -190,20 +190,20 @@ msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to enroll in "
 "this mode. Leave this blank if users can enroll in this mode until "
 "enrollment closes for the course."
-msgstr "オプション: この日時以降、ユーザーはこのモードで受講登録できなくなります。講座の受講受付が終了するまでこのモードで受講登録できるようにする場合は、空欄のままにしてください。"
+msgstr "オプション: この日時以降、ユーザーはこのモードで受講登録できなくなります。講義の受講受付が終了するまでこのモードで受講登録できるようにする場合は、空欄のままにしてください。"
 
 #: common/djangoapps/course_modes/models.py:119
 msgid ""
 "OPTIONAL: This is the SKU (stock keeping unit) of this mode in the external "
 "ecommerce service.  Leave this blank if the course has not yet been migrated"
 " to the ecommerce service."
-msgstr "オプション: これは外部 eコマースサービスのSKU (stock keeping unit) モードです。講座がeコマースサービスへまだ移行していない場合は空欄のままにしてください。"
+msgstr "オプション: これは外部eコマースサービスのSKU (stock keeping unit) モードです。講義がeコマースサービスへまだ移行していない場合は空欄のままにしてください。"
 
 #: common/djangoapps/course_modes/models.py:132
 msgid ""
 "This is the bulk SKU (stock keeping unit) of this mode in the external "
 "ecommerce service."
-msgstr "外部 eコマースサービスのこのモードのバルクSKU (stock keeping unit)です。"
+msgstr "これは外部eコマースサービスのこのモードのバルクSKU (stock keeping unit)です。"
 
 #: common/djangoapps/course_modes/models.py:181
 msgid "Honor"
@@ -213,11 +213,11 @@ msgstr "Honor"
 msgid ""
 "Professional education modes are not allowed to have expiration_datetime "
 "set."
-msgstr "Professional educationモードでは expiration_datetime 設定は使えません。"
+msgstr "Professional Education モードでは expiration_datetime 設定は使えません。"
 
 #: common/djangoapps/course_modes/models.py:198
 msgid "Verified modes cannot be free."
-msgstr "認証モードは無料にはできません。"
+msgstr "認証付きモードは無料にはできません。"
 
 #. Translators: This will look like '$50', where {currency_symbol} is a symbol
 #. such as '$' and {price} is a
@@ -237,7 +237,7 @@ msgstr "無料"
 #: common/djangoapps/course_modes/models.py:833
 msgid ""
 "The time period before a course ends in which a course mode will expire"
-msgstr "講座モードが無効になる講座終了までの期間"
+msgstr "講義モードが無効になる講義終了までの期間"
 
 #: common/djangoapps/course_modes/views.py:167
 #, python-brace-format
@@ -295,7 +295,7 @@ msgstr "このメールアドレスが登録されたユーザーアカウント
 msgid ""
 "The user account associated with this e-mail address cannot reset the "
 "password."
-msgstr "このメールアドレスが登録されたユーザーアカウントでは、パスワードの変更ができません。"
+msgstr "このメールアドレスが登録されたユーザーアカウントではパスワードの変更ができません。"
 
 #: common/djangoapps/student/forms.py:166
 msgid "A properly formatted e-mail is required"
@@ -307,7 +307,7 @@ msgstr "有効なパスワードが必要です"
 
 #: common/djangoapps/student/forms.py:168
 msgid "Your legal name must be a minimum of two characters long"
-msgstr "名前は2文字以上でなければなりません"
+msgstr "名前は２文字以上でなければなりません"
 
 #: common/djangoapps/student/forms.py:180
 #, python-format
@@ -336,7 +336,7 @@ msgstr "住所の入力が必要です"
 
 #: common/djangoapps/student/forms.py:224
 msgid "A description of your goals is required"
-msgstr "あなたの目標についての説明が必要です"
+msgstr "目標の詳細の入力が必要です"
 
 #: common/djangoapps/student/forms.py:225
 msgid "A city is required"
@@ -348,7 +348,7 @@ msgstr "国の入力が必要です"
 
 #: common/djangoapps/student/forms.py:234
 msgid "To enroll, you must follow the honor code."
-msgstr "受講登録するには、倫理規定を遵守していただく必要があります。"
+msgstr "受講登録するには Honor Code を遵守していただく必要があります。"
 
 #: common/djangoapps/student/forms.py:242
 msgid "You are missing one or more required fields"
@@ -361,11 +361,11 @@ msgstr "ユーザー名とパスワードは別のものにしてください"
 #: common/djangoapps/student/forms.py:270
 #: common/djangoapps/student/views.py:2543
 msgid "Password: "
-msgstr "パスワード: "
+msgstr "パスワード："
 
 #: common/djangoapps/student/forms.py:286
 msgid "Unauthorized email address."
-msgstr "許可されていないメールアドレスです。"
+msgstr "登録されていないメールアドレスです。"
 
 #: common/djangoapps/student/forms.py:290
 #, python-brace-format
@@ -376,7 +376,7 @@ msgstr "この {email} は既存のアカウントに登録されているよう
 
 #: common/djangoapps/student/management/commands/manage_group.py:29
 msgid "Removed group: \"{}\""
-msgstr "削除済みグループ: \"{}\""
+msgstr "削除済みグループ：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py:31
 msgid "Did not find a group with name \"{}\" - skipping."
@@ -385,15 +385,15 @@ msgstr "\"{}\" というグループがみつかりません - スキップし�
 #: common/djangoapps/student/management/commands/manage_group.py:53
 #, python-brace-format
 msgid "Invalid group name: \"{group_name}\". {messages}"
-msgstr "無効なグループ名です: \"{group_name}\"。{messages}"
+msgstr "無効なグループ名です：\"{group_name}\"。{messages}"
 
 #: common/djangoapps/student/management/commands/manage_group.py:59
 msgid "Created new group: \"{}\""
-msgstr "新しいグループを作成: \"{}\""
+msgstr "新しいグループを作成：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py:61
 msgid "Found existing group: \"{}\""
-msgstr "既存のグループです: \"{}\""
+msgstr "既存のグループです：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py:71
 #, python-brace-format
@@ -409,14 +409,14 @@ msgstr "\"{group}\"から{codenames}の権限を削除"
 msgid ""
 "Invalid permission option: \"{}\". Please specify permissions using the "
 "format: app_label:model_name:permission_codename."
-msgstr "無効な権限オプションです: \"{}\"。以下のフォーマットで権限を指定してください: app_label:model_name:permission_codename"
+msgstr "無効な権限オプションです：\"{}\"。以下のフォーマットで権限を指定してください: app_label:model_name:permission_codename"
 
 #: common/djangoapps/student/management/commands/manage_group.py:117
 #, python-brace-format
 msgid ""
 "Invalid permission codename: \"{codename}\".  No such permission exists for "
 "the model {module}.{model_name}."
-msgstr "無効な権限コードネーム: \"{codename}\"。モデル {module}.{model_name} にはそのような権限はありません。"
+msgstr "無効な権限コードネーム：\"{codename}\"。モデル {module}.{model_name} にはそのような権限はありません。"
 
 #: common/djangoapps/student/management/commands/manage_user.py:39
 #, python-brace-format
@@ -427,23 +427,23 @@ msgstr "ユーザー\"{username}\"の{attribute}を\"{new_value}\"に設定"
 msgid ""
 "Skipping user \"{}\" because the specified and existing email addresses do "
 "not match."
-msgstr "指定されたものと登録されているメールアドレスが一致しないため、ユーザ ー\"{}\"をスキップ。"
+msgstr "指定されたものと登録されているメールアドレスが一致しないため、ユーザー\"{}\"をスキップ。"
 
 #: common/djangoapps/student/management/commands/manage_user.py:67
 msgid "Did not find a user with username \"{}\" - skipping."
-msgstr "ユーザー名\"{}\"のユーザーが見つかりませんースキップします。"
+msgstr "ユーザー名\"{}\"のユーザーが見つかりません - スキップします。"
 
 #: common/djangoapps/student/management/commands/manage_user.py:70
 msgid "Removing user: \"{}\""
-msgstr "ユーザー削除: \"{}\""
+msgstr "ユーザー削除：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:96
 msgid "Created new user: \"{}\""
-msgstr "新規ユーザー作成: \"{}\""
+msgstr "新規ユーザー作成：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:99
 msgid "Found existing user: \"{}\""
-msgstr "既存ユーザーを見つけました: \"{}\""
+msgstr "既存ユーザーを見つけました：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:108
 msgid "Setting unusable password for user \"{}\""
@@ -451,11 +451,11 @@ msgstr "ユーザー\"{}\"に使用不可能なパスワードを設定"
 
 #: common/djangoapps/student/management/commands/manage_user.py:116
 msgid "Created new profile for user: \"{}\""
-msgstr "ユーザーの新規プロフィール作成: \"{}\""
+msgstr "ユーザーの新規プロフィール作成：\"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:126
 msgid "Could not find a group named \"{}\" - skipping."
-msgstr "\"{}\"という名称のグループが見つかりませんでしたースキップします。"
+msgstr "\"{}\"という名称のグループが見つかりませんでした - スキップします。"
 
 #: common/djangoapps/student/management/commands/manage_user.py:133
 #, python-brace-format
@@ -532,7 +532,7 @@ msgstr "その他"
 #: common/djangoapps/student/models.py:2228
 #, python-brace-format
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr "{course_name}講座の{platform_name} Honor Code修了証"
+msgstr "{course_name}講座の{platform_name} Honor Code 修了証"
 
 #: common/djangoapps/student/models.py:2229
 #, python-brace-format
@@ -561,16 +561,16 @@ msgstr "LinkedInパートナーがトラッキングコードで使用する短�
 #: common/djangoapps/student/models.py:2300
 #, python-brace-format
 msgid "{platform_name} Certificate for {course_name}"
-msgstr "{course_name}講座の{platform_name} 修了証"
+msgstr "{course_name}講座の{platform_name}修了証"
 
 #: common/djangoapps/student/models.py:2398
 #: common/djangoapps/student/models.py:2427
 msgid "The ISO 639-1 language code for this language."
-msgstr "この言語の言語コード ISO 639-1 。"
+msgstr "この言語の言語コード ISO 639-1。"
 
 #: common/djangoapps/student/models.py:2453
 msgid "Namespace of enrollment attribute"
-msgstr "受講登録属性の名称スペース"
+msgstr "受講登録属性の名称欄"
 
 #: common/djangoapps/student/models.py:2457
 msgid "Name of the enrollment attribute"
@@ -584,11 +584,11 @@ msgstr "受講登録属性の値"
 msgid ""
 "The window of time after enrolling during which users can be granted a "
 "refund, represented in microseconds. The default is 14 days."
-msgstr "受講申込後に受講者が払い戻しできる期間をマイクロセカンドの単位で指定してください。既定値は14日間です。"
+msgstr "受講申込後に受講者が払い戻しできる期間をマイクロセカンド単位で指定してください。既定値は14日間です。"
 
 #: common/djangoapps/student/models.py:2554
 msgid "Name of the UTM cookie"
-msgstr "UTM クッキーの名称"
+msgstr "UTMクッキーの名称"
 
 #: common/djangoapps/student/models.py:2559
 msgid "Name of the affiliate cookie"
@@ -618,7 +618,7 @@ msgstr "写真が一致しません"
 
 #: common/djangoapps/student/views.py:931
 msgid "Name missing from ID photo"
-msgstr "ID用写真名前がありません"
+msgstr "ID用写真に名前がありません"
 
 #: common/djangoapps/student/views.py:932
 msgid "ID photo not provided"
@@ -646,20 +646,20 @@ msgstr "ID用写真が不鮮明です"
 
 #: common/djangoapps/student/views.py:971
 msgid " and "
-msgstr "そして"
+msgstr "また"
 
 #: common/djangoapps/student/views.py:1236
 msgid "Course id not specified"
-msgstr "講座IDが指定されていません"
+msgstr "講義IDが指定されていません"
 
 #: common/djangoapps/student/views.py:1247
 #: lms/djangoapps/support/views/refund.py:61
 msgid "Invalid course id"
-msgstr "無効な講座ID"
+msgstr "無効な講義ID"
 
 #: common/djangoapps/student/views.py:1258
 msgid "Course id is invalid"
-msgstr "講座IDが無効です"
+msgstr "講義IDが無効です"
 
 #: common/djangoapps/student/views.py:1291
 msgid "Could not enroll"
@@ -667,11 +667,11 @@ msgstr "受講登録できませんでした"
 
 #: common/djangoapps/student/views.py:1307
 msgid "You are not enrolled in this course"
-msgstr "この講座に受講登録されていません。"
+msgstr "あなたはこの講義に受講登録されていません。"
 
 #: common/djangoapps/student/views.py:1311
 msgid "Your certificate prevents you from unenrolling from this course"
-msgstr "修了証があるため、この講座の受講登録を取り消すことはできません"
+msgstr "修了証があるため、この講義の受講登録を取り消すことはできません"
 
 #: common/djangoapps/student/views.py:1317
 msgid "Enrollment action is invalid"
@@ -691,7 +691,7 @@ msgstr "サインインするにはアカウントを有効化してください
 msgid ""
 "You've successfully logged into your {provider_name} account, but this "
 "account isn't linked with an {platform_name} account yet."
-msgstr "{provider_name}のアカウントへのログインは成功しましたが、このアカウントはまだ{platform_name}のアカウントに連動していません。"
+msgstr "{provider_name}アカウントへのログインは成功しましたが、このアカウントはまだ{platform_name}アカウントに連動していません。"
 
 #: common/djangoapps/student/views.py:1399
 #, python-brace-format
@@ -727,7 +727,7 @@ msgstr "あなたのパスワードはアカウントのパスワードポリシ
 
 #: common/djangoapps/student/views.py:1481
 msgid "Too many failed login attempts. Try again later."
-msgstr "何度もログイン試行に失敗しました。しばらく時間をおいて再操作してください。"
+msgstr "何度もログインに失敗したため、しばらく時間をおいて再操作してください。"
 
 #: common/djangoapps/student/views.py:1499
 msgid "Email or password is incorrect."
@@ -770,11 +770,11 @@ msgstr "メール'{email}'のアカウントは既に存在しています。"
 #: common/djangoapps/student/views.py:1884
 #, python-brace-format
 msgid "Registration using {provider} has timed out."
-msgstr "{provider}を利用した登録は時間切れです。"
+msgstr "{provider}を利用した登録は時間切れになりました。"
 
 #: common/djangoapps/student/views.py:1953
 msgid "An access_token is required when passing value ({}) for provider."
-msgstr "access_tokenはプロバイダに値 ({}) を渡す際に必要です。"
+msgstr "access_tokenはプロバイダに ({}) の値を渡す際に必要です。"
 
 #: common/djangoapps/student/views.py:1964
 msgid "The provided access_token is already associated with another user."
@@ -789,7 +789,7 @@ msgstr "入力されたaccess_tokenは有効ではありません。"
 #: openedx/core/djangoapps/user_api/accounts/api.py:286
 #: openedx/core/djangoapps/user_api/views.py:166
 msgid "Account creation not allowed."
-msgstr "アカウント作成は許可されていません。"
+msgstr "アカウント作成はできません。"
 
 #: common/djangoapps/student/views.py:2389
 #, python-brace-format
@@ -810,7 +810,7 @@ msgid ""
 "{html_start}Success! You have activated your account.{html_end}You will now "
 "receive email updates and alerts from us related to the courses you are "
 "enrolled in. Sign In to continue."
-msgstr "{html_start}完了！アカウントが有効化されました。{html_end}今後、受講登録した講座に関するアップデートや警告メールが届きます。続けるにはサインインしてください。"
+msgstr "{html_start}完了！アカウントが有効化されました。{html_end}今後、受講登録した講義に関するアップデートや警告メールが届きます。続けるにはサインインしてください。"
 
 #: common/djangoapps/student/views.py:2424
 #, python-brace-format
@@ -843,7 +843,7 @@ msgstr "パスワードの変更に失敗"
 
 #: common/djangoapps/student/views.py:2654
 msgid "Error in resetting your password. Please try again."
-msgstr "パスワードを変更時のエラー。再試行してください。"
+msgstr "パスワード変更時のエラー。再試行してください。"
 
 #: common/djangoapps/student/views.py:2684
 msgid "No inactive user with this e-mail exists"
@@ -868,7 +868,7 @@ msgstr "このメールアドレスのアカウントは既に存在していま
 
 #: common/djangoapps/student/views.py:2780
 msgid "Unable to send email activation link. Please try again later."
-msgstr "有効化するリンクを送信できません。後ほど再試行してください。"
+msgstr "有効化するリンクを送信できません。後ほど再操作してください。"
 
 #: common/djangoapps/third_party_auth/models.py:81
 msgid "Authentication with {} is currently unavailable."
@@ -903,21 +903,21 @@ msgstr "このオプションを有効にすると、登録手続の際に詳細
 msgid ""
 "If this option is selected, users will not be required to confirm their "
 "email, and their account will be activated immediately upon registration."
-msgstr "このオプションを選択すると、受講登録の際、ユーザーはメールの確認を求められることなく、すぐにアカウントが有効化されます。"
+msgstr "このオプションを選択すると、受講登録の際、ユーザーはメール確認を求められることなく、すぐにアカウントが有効化されます。"
 
 #: common/djangoapps/third_party_auth/models.py:152
 msgid ""
 "If this option is not selected, users will not be presented with the "
 "provider as an option to authenticate with on the login screen, but manual "
 "authentication using the correct link is still possible."
-msgstr "このオプションを選択されていない場合、ユーザーのログイン画面に本プロバイダが認証オプションとして表示されませんが、正しいリンクを使って手動で認証することはできます。"
+msgstr "このオプションが選択されていない場合、ユーザーのログイン画面に本プロバイダが認証オプションとして表示されませんが、正しいリンクを使って手動で認証することはできます。"
 
 #: common/djangoapps/third_party_auth/models.py:160
 msgid ""
 "Whether to drop an existing session when accessing a view decorated with "
 "third_party_auth.decorators.tpa_hint_ends_existing_session when a tpa_hint "
 "URL query parameter mapping to this provider is included in the request."
-msgstr "tpa_hint URL 問合パラメータのこのプロバイダへのマッピングがリクエストに含まれている場合、third_party_auth.decorators.tpa_hint_ends_existing_sessionで装飾されているビューにアクセスする際の既存セッションをドロップするかどうか。"
+msgstr "このプロバイダへのtpa_hint URL 問合パラメータのマッピングがリクエストに含まれている場合、third_party_auth.decorators.tpa_hint_ends_existing_sessionで装飾されているビューにアクセスする際の既存セッションをドロップするかどうか。"
 
 #: common/djangoapps/third_party_auth/models.py:171
 msgid ""
@@ -936,12 +936,12 @@ msgstr "このオプションを選択すると、第三者による認証後す
 
 #: common/djangoapps/third_party_auth/models.py:512
 msgid "The Site that this SAML configuration belongs to."
-msgstr "この SAML設定が属しているサイト。"
+msgstr "このSAML設定が属しているサイト。"
 
 #: common/djangoapps/third_party_auth/models.py:579
 #, python-brace-format
 msgid "{platform_name} Support"
-msgstr "{platform_name} のサポート"
+msgstr "{platform_name}サポート"
 
 #: common/djangoapps/third_party_auth/templates/third_party_auth/post_custom_auth_entry.html:5
 msgid "Please wait"
@@ -1184,7 +1184,7 @@ msgstr "９月"
 #: common/djangoapps/util/date_utils.py:333
 msgctxt "abbreviated month name"
 msgid "Oct"
-msgstr "10月"
+msgstr "１０月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Nov 10, 2014". It is used for the %b
@@ -1192,7 +1192,7 @@ msgstr "10月"
 #: common/djangoapps/util/date_utils.py:337
 msgctxt "abbreviated month name"
 msgid "Nov"
-msgstr "11月"
+msgstr "１１月"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Dec 10, 2014". It is used for the %b
@@ -1200,7 +1200,7 @@ msgstr "11月"
 #: common/djangoapps/util/date_utils.py:341
 msgctxt "abbreviated month name"
 msgid "Dec"
-msgstr "12月"
+msgstr "１２月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "January 10, 2014". It is used for the %B directive in
@@ -1280,7 +1280,7 @@ msgstr "９月"
 #: common/djangoapps/util/date_utils.py:384
 msgctxt "month name"
 msgid "October"
-msgstr "10月"
+msgstr "１０月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "November 10, 2014". It is used for the %B directive in
@@ -1288,7 +1288,7 @@ msgstr "10月"
 #: common/djangoapps/util/date_utils.py:388
 msgctxt "month name"
 msgid "November"
-msgstr "11月"
+msgstr "１１月"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "December 10, 2014". It is used for the %B directive in
@@ -1296,14 +1296,14 @@ msgstr "11月"
 #: common/djangoapps/util/date_utils.py:392
 msgctxt "month name"
 msgid "December"
-msgstr "12月"
+msgstr "１２月"
 
 #: common/djangoapps/util/file.py:61
 #, python-brace-format
 msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
-msgstr[0] "ファイルは次のいずれかの拡張子で終わらなければいけません: '{file_types}'。"
+msgstr[0] "ファイルは次のいずれかの拡張子で終わらなければいけません：'{file_types}'。"
 
 #: common/djangoapps/util/file.py:67
 #, python-brace-format
@@ -1313,7 +1313,7 @@ msgstr "アップロード可能な最大サイズは{file_size}バイトです�
 #: common/djangoapps/util/milestones_helpers.py:56
 #, python-brace-format
 msgid "Course {course_id} requires {prerequisite_course_id}"
-msgstr "講座{course_id}には{prerequisite_course_id}が必要です"
+msgstr "講義{course_id}には{prerequisite_course_id}が必要です"
 
 #: common/djangoapps/util/milestones_helpers.py:63
 #: openedx/core/lib/gating/api.py:181
@@ -1323,7 +1323,7 @@ msgstr "システムで定義されたマイルストーン"
 #: common/djangoapps/util/password_policy_validators.py:42
 #, python-brace-format
 msgid "Invalid Length ({0})"
-msgstr "無効な長さ ({0})"
+msgstr "無効な長さ({0})"
 
 #: common/djangoapps/util/password_policy_validators.py:49
 #, python-brace-format
@@ -1338,7 +1338,7 @@ msgstr "{0}文字以下でなければいけません"
 #: common/djangoapps/util/password_policy_validators.py:58
 #, python-brace-format
 msgid "Must be more complex ({0})"
-msgstr "もっと複雑にしてください ({0})"
+msgstr "より複雑なものにしてください({0})"
 
 #: common/djangoapps/util/password_policy_validators.py:84
 #, python-brace-format
@@ -1387,21 +1387,21 @@ msgid ""
 "deprecated. Remember to update XBlockStudioConfiguration support state "
 "accordingly, as deprecated does not impact whether or not new XBlock "
 "instances can be created in Studio."
-msgstr "講座の詳細モジュールリストにあるXBlocksのみ非推奨としてフラグされます。新規XBlock instanceをStudioで作成できるかどうかに影響を及ぼさないように、XBloxkStudioCondigurationのサポート状況を随時更新してください。"
+msgstr "講義の詳細モジュールリストにあるXBlocksのみ非推奨としてフラグされます。新規XBlock instanceをStudioで作成できるかどうかに影響が出ないように、XBloxkStudioCondigurationのサポート状況を随時更新してください。"
 
 #: common/djangoapps/xblock_django/admin.py:44
 msgid ""
 "XBlock/template combinations that are disabled cannot be edited in Studio, "
 "regardless of support level. Remember to also check if all instances of the "
 "XBlock are disabled in XBlockConfiguration."
-msgstr "無効になったXBlock/template はサポートレベルにかかわらずStudioでは編集できません。XBlockすべてがXBlockConfigurationでXBlockのすべてのinstanceが無効になっているか忘れずに確認してください。"
+msgstr "無効になったXBlock/templateはサポートレベルにかかわらずStudioでは編集できません。XBlockのすべてのinstanceがXBlockConfigurationで無効になっているか必ず確認してください。"
 
 #: common/djangoapps/xblock_django/admin.py:51
 msgid ""
 "Enabled XBlock/template combinations with full or provisional support can "
 "always be created in Studio. Unsupported XBlock/template combinations "
 "require course author opt-in."
-msgstr "フルサポートまたは一時サポート付の有効化されたXBlock/template combinationはStudioで常時作成できます。サポート無しのXBlock/template combinationは講座制作者の同意が必要です。"
+msgstr "フルサポートまたは一時サポート付の有効化されたXBlock/template combinationはStudioで常時作成できます。サポート無しのXBlock/template combinationは講義制作者の同意が必要です。"
 
 #: common/djangoapps/xblock_django/models.py:24
 msgid "show deprecation messaging in Studio"
@@ -1451,7 +1451,7 @@ msgstr "未完了"
 
 #: common/lib/capa/capa/inputtypes.py:92 common/lib/capa/capa/inputtypes.py:93
 msgid "unanswered"
-msgstr "未回答"
+msgstr "未解答"
 
 #: common/lib/capa/capa/inputtypes.py:94
 msgid "submitted"
@@ -1509,18 +1509,18 @@ msgstr "<choice>または<compoundhint>タグが期待されていましたが�
 msgid ""
 "Your files have been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
-msgstr "ファイルを提出しました。採点が完了するとすぐ、採点者からのフィードバックが届きます。"
+msgstr "ファイル提出済。採点が完了次第、採点者からのフィードバックが届きます。"
 
 #: common/lib/capa/capa/inputtypes.py:797
 msgid ""
 "Your answer has been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
-msgstr "解答を提出しました。採点が完了するとすぐ、採点者からのフィードバックが届きます。"
+msgstr "解答提出済。採点が完了次第、採点者からのフィードバックが届きます。"
 
 #: common/lib/capa/capa/inputtypes.py:810
 #, python-brace-format
 msgid "{programming_language} editor"
-msgstr "{programming_language} エディタ"
+msgstr "{programming_language}エディタ"
 
 #: common/lib/capa/capa/inputtypes.py:813
 msgid "Press ESC then TAB or click outside of the code editor to exit"
@@ -1530,12 +1530,12 @@ msgstr "終了するには、ESCの後TABを押すか、コードエディタの
 msgid ""
 "Submitted. As soon as a response is returned, this message will be replaced "
 "by that feedback."
-msgstr "提出しました。応答があり次第、フィードバックが届きます。"
+msgstr "提出済。応答があり次第、フィードバックが届きます。"
 
 #: common/lib/capa/capa/inputtypes.py:866
 #, python-brace-format
 msgid "No response from Xqueue within {xqueue_timeout} seconds. Aborted."
-msgstr "{xqueue_timeout}秒間、Xqueueからの応答がありません。中断します。"
+msgstr "{xqueue_timeout}秒間 Xqueueからの応答がありません。中断します。"
 
 #: common/lib/capa/capa/inputtypes.py:931
 msgid "Error running code."
@@ -1553,7 +1553,7 @@ msgstr "式が指定されていません。"
 #: common/lib/capa/capa/inputtypes.py:1208
 #, python-brace-format
 msgid "Couldn't parse formula: {error_msg}"
-msgstr "式を解析できませんでした: {error_msg}"
+msgstr "式を解析できませんでした：{error_msg}"
 
 #: common/lib/capa/capa/inputtypes.py:1213
 #: common/lib/capa/capa/inputtypes.py:1305
@@ -1567,13 +1567,13 @@ msgstr "申し訳ありませんが、式を解析できませんでした"
 #: common/lib/capa/capa/inputtypes.py:1700
 #, python-brace-format
 msgid "{input_type}: unexpected tag {tag_name}"
-msgstr "{input_type}: 予期せぬタグ {tag_name}"
+msgstr "{input_type}：予期せぬタグ {tag_name}"
 
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
 #: common/lib/capa/capa/inputtypes.py:1785
 #, python-brace-format
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
-msgstr " {expected_tag} タグが期待されていましたが、{given_tag} を取得しました"
+msgstr " {expected_tag}タグが期待されていましたが、{given_tag}を取得しました"
 
 #. Translators: index here could be 1,2,3 and so on
 #: common/lib/capa/capa/responsetypes.py:264
@@ -1583,11 +1583,11 @@ msgstr "質問 {index}"
 
 #: common/lib/capa/capa/responsetypes.py:367
 msgid "Correct:"
-msgstr "正解: "
+msgstr "正解："
 
 #: common/lib/capa/capa/responsetypes.py:369
 msgid "Incorrect:"
-msgstr "不正解: "
+msgstr "不正解："
 
 #: common/lib/capa/capa/responsetypes.py:414
 msgid "Answer"
@@ -1596,7 +1596,7 @@ msgstr "解答"
 #: common/lib/capa/capa/responsetypes.py:493
 #, python-brace-format
 msgid "Error {err} in evaluating hint function {hintfn}."
-msgstr "ヒント機能{hintfn}にエラー{err}があります。 "
+msgstr "ヒント機能{hintfn}にエラー{err}があります。"
 
 #: common/lib/capa/capa/responsetypes.py:494
 msgid "(Source code line unavailable)"
@@ -1619,7 +1619,7 @@ msgstr "多肢選択"
 #. be translated.
 #: common/lib/capa/capa/responsetypes.py:1220
 msgid "Do not use shuffle and answer-pool at the same time"
-msgstr "shuffleとanswer-poolを同時に使用しないでください"
+msgstr "シャッフルとanswer-poolを同時に使用しないでください"
 
 #. Translators: 'answer-pool' is an attribute name and should not be
 #. translated.
@@ -1652,7 +1652,7 @@ msgstr "この問題に対するスタッフの解答に問題があります。
 #: common/lib/capa/capa/responsetypes.py:1596
 #, python-brace-format
 msgid "Could not interpret '{student_answer}' as a number."
-msgstr " '{student_answer}'を数字として解釈することができませんでした。"
+msgstr " '{student_answer}'を数字として読み取れませんでした。"
 
 #: common/lib/capa/capa/responsetypes.py:1605
 #, python-brace-format
@@ -1662,16 +1662,16 @@ msgstr "変数 ({bad_variables}) は数の問題では使用できません。"
 #: common/lib/capa/capa/responsetypes.py:1616
 #, python-brace-format
 msgid "Factorial function evaluated outside its domain:'{student_answer}'"
-msgstr "ドメイン外で評価された階乗機能:'{student_answer}'"
+msgstr "ドメイン外で評価された階乗機能：'{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py:1623
 #, python-brace-format
 msgid "Invalid math syntax: '{student_answer}'"
-msgstr "無効な数学シンタックスです: '{student_answer}'"
+msgstr "無効な数学シンタックスです：'{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py:1654
 msgid "You may not use complex numbers in range tolerance problems"
-msgstr "範囲指定の問題では、複素数は使用できません"
+msgstr "範囲指定の問題では複素数は使用できません"
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. provided a
@@ -1680,7 +1680,7 @@ msgstr "範囲指定の問題では、複素数は使用できません"
 #: common/lib/capa/capa/responsetypes.py:1662
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
-msgstr "この問題のスタッフの解答に問題がありました: 複雑な境界。"
+msgstr "この問題のスタッフの解答に問題がありました：複雑な境界。"
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not
@@ -1688,7 +1688,7 @@ msgstr "この問題のスタッフの解答に問題がありました: 複雑�
 #: common/lib/capa/capa/responsetypes.py:1668
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
-msgstr "この問題のスタッフの解答に問題がありました: 空の境界。"
+msgstr "この問題のスタッフの解答に問題がありました：空の境界。"
 
 #. Translators: Separator used in NumericalResponse to display multiple
 #. answers.
@@ -1722,7 +1722,7 @@ msgstr "解答が入力されていません！"
 
 #: common/lib/capa/capa/responsetypes.py:2434
 msgid "CustomResponse: check function returned an invalid dictionary!"
-msgstr "CustomResponse: チェック機能が無効なディクショナリを返してきました！"
+msgstr "CustomResponse：チェック機能が無効なディクショナリを返してきました！"
 
 #: common/lib/capa/capa/responsetypes.py:2527
 msgid "Symbolic Math Input"
@@ -1733,7 +1733,7 @@ msgstr "数学記号入力"
 #: common/lib/capa/capa/responsetypes.py:2558
 #, python-brace-format
 msgid "An error occurred with SymbolicResponse. The error was: {error_msg}"
-msgstr "SymbolicResponseでエラーが発生しました。エラー内容: {error_msg}"
+msgstr "SymbolicResponseでエラーが発生しました。エラー内容：{error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py:2596
 msgid "Code Input"
@@ -1745,19 +1745,19 @@ msgstr "解答がありません。"
 
 #: common/lib/capa/capa/responsetypes.py:2673
 msgid "Error: No grader has been set up for this problem."
-msgstr "エラー: この問題の採点者が設定されていません。"
+msgstr "エラー：この問題の採点者が設定されていません。"
 
 #: common/lib/capa/capa/responsetypes.py:2734
 #, python-brace-format
 msgid ""
 "Unable to deliver your submission to grader (Reason: {error_msg}). Please "
 "try again later."
-msgstr "採点者にあなたの提出物を送信できません (理由: {error_msg})。後ほど再試行してください。"
+msgstr "採点者にあなたの提出物を送信できません (理由：{error_msg})。後ほど再操作してください。"
 
 #. Translators: 'grader' refers to the edX automatic code grader.
 #: common/lib/capa/capa/responsetypes.py:2764
 msgid "Invalid grader reply. Please contact the course staff."
-msgstr "採点者の応答が無効です。講座スタッフにご連絡ください。"
+msgstr "採点者の応答が無効です。講義スタッフにご連絡ください。"
 
 #: common/lib/capa/capa/responsetypes.py:2877
 msgid "External Grader"
@@ -1770,24 +1770,24 @@ msgstr "数式表現入力"
 #: common/lib/capa/capa/responsetypes.py:3111
 #, python-brace-format
 msgid "Invalid input: {bad_input} not permitted in answer."
-msgstr "無効な入力: {bad_input} は解答として認められません。"
+msgstr "無効な入力：{bad_input}は解答として認められません。"
 
 #: common/lib/capa/capa/responsetypes.py:3126
 #, python-brace-format
 msgid ""
 "Factorial function not permitted in answer for this problem. Provided answer"
 " was: {bad_input}"
-msgstr "この問題の解答には認められていない階乗機能です。解答: {bad_input}"
+msgstr "この問題の解答には認められていない階乗機能です。解答：{bad_input}"
 
 #: common/lib/capa/capa/responsetypes.py:3133
 #, python-brace-format
 msgid "Invalid input: Could not parse '{bad_input}' as a formula."
-msgstr "無効な入力: '{bad_input}'は式として解析できませんでした。"
+msgstr "無効な入力：'{bad_input}'は式として解析できませんでした。"
 
 #: common/lib/capa/capa/responsetypes.py:3141
 #, python-brace-format
 msgid "Invalid input: Could not parse '{bad_input}' as a formula"
-msgstr "無効な入力: '{bad_input}'は式として解析できませんでした"
+msgstr "無効な入力：'{bad_input}'は式として解析できませんでした"
 
 #: common/lib/capa/capa/responsetypes.py:3249
 msgid "Circuit Schematic Builder"
@@ -1798,7 +1798,7 @@ msgstr "回路図ビルダー"
 #: common/lib/capa/capa/responsetypes.py:3286
 #, python-brace-format
 msgid "Error in evaluating SchematicResponse. The error was: {error_msg}"
-msgstr "SchematicResponseの評価エラーです。エラー: {error_msg}"
+msgstr "SchematicResponseの評価エラーです。エラー：{error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py:3327
 msgid "Image Mapped Input"
@@ -1830,12 +1830,12 @@ msgstr "{input_type}でない解答"
 
 #: common/lib/capa/capa/responsetypes.py:3872
 msgid "The Staff answer could not be interpreted as a number."
-msgstr "スタッフの解答が数字として解釈できませんでした。"
+msgstr "スタッフの解答が数字として読み取れませんでした。"
 
 #: common/lib/capa/capa/responsetypes.py:3886
 #, python-brace-format
 msgid "Could not interpret '{given_answer}' as a number."
-msgstr "'{given_answer}'を数字として解釈できませんでした。"
+msgstr "'{given_answer}'を数字として読み取れませんでした。"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py:20
 #: common/lib/xmodule/xmodule/imageannotation_module.py:24
@@ -1884,7 +1884,7 @@ msgstr "上限提出数"
 msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
-msgstr "受講者がこの問題に解答できる試行回数を定義します。値がない場合は、何回でも解答できることになります。"
+msgstr "受講者がこの問題に解答できる試行回数を設定します。値がない場合は、何回でも解答できることになります。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:116
 msgid "Date that this problem is due by"
@@ -1903,7 +1903,7 @@ msgstr "結果表示"
 msgid ""
 "Defines when to show whether a learner's answer to the problem is correct. "
 "Configured on the subsection."
-msgstr "受講者の解答が正解かどうかをいつ示すのか定義します。サブセクションで設定。"
+msgstr "受講者の解答が正解かどうかをいつ示すのか設定します。サブセクションで設定。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:128
 #: common/lib/xmodule/xmodule/capa_base.py:140
@@ -1931,7 +1931,7 @@ msgstr "解答を見る"
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings."
-msgstr "問題の解答をいつ表示するか定義します。既定値は詳細設定で設定できます。"
+msgstr "問題の解答をいつ表示するか設定します。既定値は詳細設定で設定できます。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:141
 msgid "Answered"
@@ -1976,7 +1976,7 @@ msgstr "ランダム化"
 msgid ""
 "Defines when to randomize the variables specified in the associated Python "
 "script. For problems that do not randomize values, specify \"Never\". "
-msgstr "Pythonスクリプトで指定した変数をいつランダム化するかを定義します。変数をランダム化しない問題の場合は、\"なし\"と指定します。"
+msgstr "Pythonスクリプトで指定した変数をいつランダム化するかを設定します。変数をランダム化しない問題の場合は、\"なし\"と指定します。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:173
 msgid "On Reset"
@@ -2040,7 +2040,7 @@ msgstr "問題の重み付け"
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " each response field in the problem is worth one point."
-msgstr "各問題が何点なのか定義します。値が設定されていない場合、１つの解答枠あたり１点となります。"
+msgstr "各問題が何点なのか設定します。値が設定されていない場合、１つの解答枠あたり１点となります。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:208
 msgid "Markdown source of this module"
@@ -2069,7 +2069,7 @@ msgid ""
 "notify MathWorks immediately if you believe the key is exposed or "
 "compromised. To obtain a key for your course, or to report an issue, please "
 "contact moocsupport@mathworks.com"
-msgstr "MATLABのホスティングサービスにアクセスするため、MathWorks社から提供されたAPIキーを入力します。このキーはこの講座の期間中のみ限定的に利用できるものです。他の講座とAPIキーを共有しないでください。このキーが暴露されたり毀損されたと考えられる場合には、すぐにMathWorks社へお知らせください。あなたの講座でキーを入手したい場合もしくは問題を報告する場合は、moocsupport@mathworks.com へご連絡ください。"
+msgstr "MATLABのホスティングサービスにアクセスするため、MathWorks社から提供されたAPIキーを入力します。このキーはこの講義の期間中のみ限定的に利用できるものです。他の講義とAPIキーを共有しないでください。このキーが漏れたり毀損されたと考えられる場合には、すぐにMathWorks社へお知らせください。あなたの講義でキーを入手したい場合や問題を報告する場合は moocsupport@mathworks.com へご連絡ください。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:448
 msgid "Submit"
@@ -2081,7 +2081,7 @@ msgstr "提出中"
 
 #: common/lib/xmodule/xmodule/capa_base.py:583
 msgid "Warning: The problem has been reset to its initial state!"
-msgstr "警告: 問題は初期状態にリセットされました！"
+msgstr "警告：問題は初期状態にリセットされました！"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
@@ -2089,11 +2089,11 @@ msgstr "警告: 問題は初期状態にリセットされました！"
 msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
-msgstr "問題が不正な提出物によって破損されました。提出内容: "
+msgstr "問題が不正な提出物によって破損されました。提出内容："
 
 #: common/lib/xmodule/xmodule/capa_base.py:594
 msgid "If this error persists, please contact the course staff."
-msgstr "このエラーが解決しない場合は、講座スタッフにお問い合わせください。"
+msgstr "このエラーが解決しない場合は、講義スタッフにお問い合わせください。"
 
 #. Translators: {previous_hints} is the HTML of hints that have already been
 #. generated, {hint_number_prefix}
@@ -2112,31 +2112,31 @@ msgstr "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li
 #: common/lib/xmodule/xmodule/capa_base.py:648
 #, python-brace-format
 msgid "Hint ({hint_num} of {hints_count}): "
-msgstr "ヒント ({hints_count}個中{hint_num}番目): "
+msgstr "ヒント ({hints_count}個中{hint_num}番目)："
 
 #: common/lib/xmodule/xmodule/capa_base.py:718
 #, python-brace-format
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
-msgstr "解答は以前保存されています。採点するには'{button_name}'をクリックしてください。"
+msgstr "解答は以前に保存されています。採点するには'{button_name}'をクリックしてください。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:795
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
-msgstr[0] "不正解 ({progress} 点)"
+msgstr[0] "不正解 ({progress}点)"
 
 #: common/lib/xmodule/xmodule/capa_base.py:804
 #, python-brace-format
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
-msgstr[0] "正解 ({progress} 点)"
+msgstr[0] "正解 ({progress}点)"
 
 #: common/lib/xmodule/xmodule/capa_base.py:813
 #, python-brace-format
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
-msgstr[0] "一部正解 ({progress} 点)"
+msgstr[0] "一部正解 ({progress}点)"
 
 #: common/lib/xmodule/xmodule/capa_base.py:818
 msgid "Partially Correct"
@@ -2155,19 +2155,19 @@ msgstr "問題は終了しました。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1188
 msgid "Problem must be reset before it can be submitted again."
-msgstr "再提出できるようにするには、問題をリセットしなければいけません。"
+msgstr "再提出できるようにするには問題をリセットしなければいけません。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1197
 #, python-brace-format
 msgid "You must wait at least {wait} seconds between submissions."
-msgstr " {wait} 秒以上待ってから提出してください。"
+msgstr " {wait}秒以上待ってから提出してください。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1206
 #, python-brace-format
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
-msgstr "最低 {wait_secs}秒待ってから提出してください。残り{remaining_secs}秒。"
+msgstr "{wait_secs}秒以上待ってから提出してください。残り{remaining_secs}秒。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1369
 #, python-brace-format
@@ -2189,7 +2189,7 @@ msgstr[0] "{num_second}秒"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1500
 msgid "Problem needs to be reset prior to save."
-msgstr "保存する前に、問題をリセットする必要があります。"
+msgstr "保存する前に問題をリセットする必要があります。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1510
 msgid "Your answers have been saved."
@@ -2210,13 +2210,13 @@ msgstr "終了後の問題はリセットできません。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1554
 msgid "You must submit an answer before you can select Reset."
-msgstr "リセットする前に、解答を提出してください。"
+msgstr "リセットする前に解答を提出してください。"
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
 #: common/lib/xmodule/xmodule/capa_base.py:1609
 msgid "Problem's definition does not support rescoring."
-msgstr "問題は再採点するように定義されていません。"
+msgstr "問題は再採点するように設定されていません。"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1615
 msgid "Problem must be answered before it can be graded again."
@@ -2226,13 +2226,13 @@ msgstr "問題は再採点の前にまず解答する必要があります。"
 msgid ""
 "We're sorry, there was an error with processing your request. Please try "
 "reloading your page and trying again."
-msgstr "申し訳ありません。リクエストを処理する際にエラーが発生しました。ページを再読込して再度実行してくだい。"
+msgstr "申し訳ありません。リクエストを処理する際にエラーが発生しました。ページを再読込して再操作してくだい。"
 
 #: common/lib/xmodule/xmodule/capa_module.py:82
 msgid ""
 "The state of this problem has changed since you loaded this page. Please "
 "refresh your page."
-msgstr "この画面を読み込んだ後に、問題の状態が変更になりました。画面を再読込してください。"
+msgstr "この画面を読み込んだ後に問題の状態が変更になりました。画面を再読込してください。"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:34
 msgid "Conditional"
@@ -2285,7 +2285,7 @@ msgid ""
 "show the content of this conditional module. Include {link} in the text of "
 "your message to give learners a direct link to required units. For example, "
 "'You must complete {link} before you can access this unit'."
-msgstr "条件付きモジュールのコンテンツを表示する条件すべてを満たさなかった場合に受講者に表示されるメッセージです。必要なユニットへの直接のリンクを受講者に知らせるメッセージの文章内に {link} を含めてください。例えば、'このユニットにアクセスできるようになるには、まず{link}を完了しなければなりません。'"
+msgstr "条件付きモジュールのコンテンツを表示する条件すべてを満たさなかった場合に受講者に表示されるメッセージです。必要なユニットへの直接のリンクを受講者に知らせるメッセージの文章内に{link}を含めてください。例えば、'このユニットにアクセスできるようになるには、まず{link}を完了しなければなりません。'"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:74
 #, python-brace-format
@@ -2308,32 +2308,32 @@ msgstr "LTIパスポート"
 msgid ""
 "Enter the passports for course LTI tools in the following format: "
 "\"id:client_key:client_secret\"."
-msgstr "講座のLTIツールのパスポートを次のフォーマットで入力してください：\"id:client_key:client_secret\"。"
+msgstr "講義のLTIツールのパスポートを次のフォーマットで入力してください：\"id:client_key:client_secret\"。"
 
 #: common/lib/xmodule/xmodule/course_module.py:177
 msgid ""
 "List of Textbook objects with (title, url) for textbooks used in this course"
-msgstr "本講座で使われている教科書の (表題、URL) のリスト"
+msgstr "本講義で使われている教科書の (表題、URL) のリスト"
 
 #: common/lib/xmodule/xmodule/course_module.py:182
 msgid "Slug that points to the wiki for this course"
-msgstr "この講座の wiki を示すスラグ"
+msgstr "本講義のwikiを示すスラグ"
 
 #: common/lib/xmodule/xmodule/course_module.py:183
 msgid "Date that enrollment for this class is opened"
-msgstr "このクラスの受講登録の開始日"
+msgstr "本クラスの受講登録の開始日"
 
 #: common/lib/xmodule/xmodule/course_module.py:184
 msgid "Date that enrollment for this class is closed"
-msgstr "このクラスの受講登録の終了日"
+msgstr "本クラスの受講登録の終了日"
 
 #: common/lib/xmodule/xmodule/course_module.py:186
 msgid "Start time when this module is visible"
-msgstr "このモジュールの表示の開始時刻"
+msgstr "本モジュールの表示の開始時刻"
 
 #: common/lib/xmodule/xmodule/course_module.py:190
 msgid "Date that this class ends"
-msgstr "このクラスの終了日"
+msgstr "本クラスの終了日"
 
 #: common/lib/xmodule/xmodule/course_module.py:192
 msgid "Date that certificates become available to learners"
@@ -2341,37 +2341,37 @@ msgstr "受講者が修了証を受領できる日"
 
 #: common/lib/xmodule/xmodule/course_module.py:196
 msgid "Cosmetic Course Display Price"
-msgstr "表示上の講座価格"
+msgstr "表示上の講義料金"
 
 #: common/lib/xmodule/xmodule/course_module.py:198
 msgid ""
 "The cost displayed to students for enrolling in the course. If a paid course"
 " registration price is set by an administrator in the database, that price "
 "will be displayed instead of this one."
-msgstr "受講者が受講登録する際に表示される価格。データベースに管理者によって登録価格が設定されている場合は、その価格が表示されます。"
+msgstr "受講者が受講登録する際に表示される金額。データベースに管理者によって登録料金が設定されている場合は、その金額が表示されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:205
 msgid "Course Advertised Start"
-msgstr "講座の告知開始"
+msgstr "講義の告知開始"
 
 #: common/lib/xmodule/xmodule/course_module.py:207
 msgid ""
 "Enter the text that you want to use as the advertised starting time frame "
 "for the course, such as \"Winter 2018\". If you enter null for this value, "
 "the start date that you have set for this course is used."
-msgstr "\"2018 冬\"のように、講座の告知開始時期として使用したい文字を入力してください。nullと入力すると、講座開始日が使用されます。"
+msgstr "\"2018 冬\"のように、講義の告知開始時期として使用したい文字を入力してください。nullと入力すると、講義開始日が使用されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:214
 msgid "Pre-Requisite Courses"
-msgstr "事前必須講座"
+msgstr "事前必須講義"
 
 #: common/lib/xmodule/xmodule/course_module.py:215
 msgid "Pre-Requisite Course key if this course has a pre-requisite course"
-msgstr "この講座に事前必須講座がある場合の事前必須講座キー"
+msgstr "事前必須講義の指定がある場合の事前必須講義キー"
 
 #: common/lib/xmodule/xmodule/course_module.py:219
 msgid "Grading policy definition for this class"
-msgstr "このクラスの採点ポリシーの定義"
+msgstr "本クラスの採点ポリシーの設定"
 
 #: common/lib/xmodule/xmodule/course_module.py:257
 msgid "Show Calculator"
@@ -2381,16 +2381,16 @@ msgstr "計算機を表示"
 msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
-msgstr "trueまたはfalseを入力してください。trueの場合、受講者は計算機を見ることができます。"
+msgstr "trueまたはfalseを入力してください。trueの場合、講義内で計算機が表示されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:263
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
-msgstr "edX.org 講座一覧に表示される講座名を入力してください。"
+msgstr "edX.org 講義一覧に表示される講義名を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:265
 msgid "Course Display Name"
-msgstr "講座の表示名"
+msgstr "講義の表示名"
 
 #: common/lib/xmodule/xmodule/course_module.py:269
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:54
@@ -2400,7 +2400,7 @@ msgstr "コースエディタ"
 #: common/lib/xmodule/xmodule/course_module.py:270
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:55
 msgid "Enter the method by which this course is edited (\"XML\" or \"Studio\")."
-msgstr "この講座がどちらの方法で編集されているのか入力してください (\"XML\"もしくは\"Studio\")。"
+msgstr "本講義がどちらの方法で編集されているか入力してください (\"XML\"もしくは\"Studio\")。"
 
 #: common/lib/xmodule/xmodule/course_module.py:277
 msgid "Course Survey URL"
@@ -2410,7 +2410,7 @@ msgstr "アンケート調査URL"
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
-msgstr "講座終了時アンケート調査のURLを入力してください。調査をしない場合には、nullと入力してください。"
+msgstr "講義終了時アンケート調査のURLを入力してください。調査をしない場合には、nullと入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:283
 msgid "Discussion Blackout Dates"
@@ -2427,7 +2427,7 @@ msgid ""
 " two blackout periods looks like this, including the outer pair of square "
 "brackets: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
 "\"2015-10-08\"]] "
-msgstr "受講者がディスカッションフォーラムに投稿できないようにする期間を入力してください。括弧の内側に、角括弧で囲った日付を [\"YYYY-MM-DD\", \"YYYY-MM-DD\"] という形式で記入します。時間も設定する場合には、[\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"]という形式で入力します。日付と時間の間に\"T\"がある点に注意してください。２回以上の停止期間を設ける場合は次のように入力してください： [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
+msgstr "受講者がディスカッションフォーラムに投稿できないようにする期間を入力してください。括弧の内側に、角括弧で囲った日付を [\"YYYY-MM-DD\", \"YYYY-MM-DD\"] という形式で記入します。時間も設定する場合には、[\"YYYY-MM-DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"]という形式で入力します。日付と時間の間に\"T\"がある点に注意してください。２回以上の停止期間を設ける場合は次のように入力してください：[[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
 
 #: common/lib/xmodule/xmodule/course_module.py:295
 msgid "Discussion Topic Mapping"
@@ -2444,26 +2444,26 @@ msgid ""
 "category as the default for new posts in the Discussion page by setting its "
 "\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": \"i4x-"
 "UniversityX-MUS101-course-2015_T1\", \"default\": true}."
-msgstr "ディスカッションカテゴリーを以下の形式で入力してください: \"カテゴリー名\": {\"id\": \"i4x-機関名-講座番号-course-CourseRun\"}。例えば、あるディスカッションカテゴリーは \"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}。\"id\"の値は各カテゴリー固有でなければならず、使用できる記号はアンダースコア、ハイフン、ピリオドのみです。また、\"default\"をtrueと設定することにより、ディスカッションページの新規投稿のためのカテゴリーをデフォルトとして指定することができます。例えば、\"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
+msgstr "ディスカッションカテゴリーを以下の形式で入力してください：\"カテゴリー名\"：{\"id\": \"i4x-機関名-講義番号-course-CourseRun\"}。例えば、あるディスカッションカテゴリーは \"Lydian Mode\"：{\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\"}。\"id\"の値は各カテゴリー固有でなければならず、使用できる記号はアンダースコア、ハイフン、ピリオドのみです。また、\"default\"をtrueと設定することにより、ディスカッションページの新規投稿のためのカテゴリーをデフォルトとして指定することができます。例えば、\"Lydian Mode\"：{\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 
 #: common/lib/xmodule/xmodule/course_module.py:309
 msgid "Discussion Sorting Alphabetical"
-msgstr "アルファベット順のディスカッション　"
+msgstr "ディスカッション（アルファベット順）"
 
 #: common/lib/xmodule/xmodule/course_module.py:312
 msgid ""
 "Enter true or false. If true, discussion categories and subcategories are "
 "sorted alphabetically. If false, they are sorted chronologically by creation"
 " date and time."
-msgstr "true または false を入力してください。true の場合、ディスカッションカテゴリーおよびサブカテゴリーはアルファベット順に、falseの場合、日付順に並び替えられます。"
+msgstr "true または false を入力してください。trueの場合はディスカッションカテゴリーおよびサブカテゴリーがアルファベット順に、falseの場合は日付順に並び替えられます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:317
 msgid "Course Announcement Date"
-msgstr "講座告知日"
+msgstr "講義告知日"
 
 #: common/lib/xmodule/xmodule/course_module.py:318
 msgid "Enter the date to announce your course."
-msgstr "講座について告知する日付を入力してください。"
+msgstr "講義について告知する日付を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:322
 msgid "Cohort Configuration"
@@ -2474,27 +2474,27 @@ msgid ""
 "Enter policy keys and values to enable the cohort feature, define automated "
 "student assignment to groups, or identify any course-wide discussion topics "
 "as private to cohort members."
-msgstr "コホート機能を使うためには、ポリシーキーおよび値を入力し、受講者の自動グループ振り分けを定義するか、もしくは講座全体のディスカッショントピックを特定のコホートのメンバーのみに公開されるものとして特定してください。"
+msgstr "コホート機能を使うためには、ポリシーキーおよび値を入力し、受講者の自動グループ振り分けを定義する、もしくは講義全体のディスカッショントピックを特定のコホートのメンバーのみに公開されるものとして特定してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:330
 msgid "Course Is New"
-msgstr "新規講座です"
+msgstr "新規講義です"
 
 #: common/lib/xmodule/xmodule/course_module.py:332
 msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
-msgstr "true または falseを入力してください。trueの場合、この講座はedx.orgの新規講座リストに表示され、しばらくの間「New!」というマークが講座画像の横に表示されます。"
+msgstr "true または falseを入力してください。trueの場合、講義はedx.orgの新規講義リストに表示され、しばらくの間「New!」というマークが講義画像の横に表示されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:338
 msgid "Mobile Course Available"
-msgstr "モバイル講座利用可能"
+msgstr "モバイル講義利用可能"
 
 #: common/lib/xmodule/xmodule/course_module.py:339
 msgid ""
 "Enter true or false. If true, the course will be available to mobile "
 "devices."
-msgstr "true または falseを入力してください。trueの場合、この講座はモバイルで利用可能となります。"
+msgstr "true または falseを入力してください。trueの場合、講義はモバイルで利用可能となります。"
 
 #: common/lib/xmodule/xmodule/course_module.py:344
 msgid "Video Upload Credentials"
@@ -2503,15 +2503,15 @@ msgstr "動画アップロード証明書"
 #: common/lib/xmodule/xmodule/course_module.py:345
 msgid ""
 "Enter the unique identifier for your course's video files provided by edX."
-msgstr "edXで提供する講座の動画ファイル用に独自の識別子を入力してください。"
+msgstr "edXで提供する講義の動画ファイル用に独自の識別子を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:349
 msgid "Course Not Graded"
-msgstr "採点対象外の講座"
+msgstr "採点対象外の講義"
 
 #: common/lib/xmodule/xmodule/course_module.py:350
 msgid "Enter true or false. If true, the course will not be graded."
-msgstr "true または falseを入力してください。true の場合、この講座は採点されません。"
+msgstr "true または falseを入力してください。trueの場合、講義は採点されません。"
 
 #: common/lib/xmodule/xmodule/course_module.py:355
 msgid "Disable Progress Graph"
@@ -2519,7 +2519,7 @@ msgstr "進捗グラフを無効化"
 
 #: common/lib/xmodule/xmodule/course_module.py:356
 msgid "Enter true or false. If true, students cannot view the progress graph."
-msgstr "true または false を入力してください。true の場合、受講者は進捗グラフを見ることができません。"
+msgstr "true または false を入力してください。trueの場合、受講者は進捗グラフを見ることができません。"
 
 #: common/lib/xmodule/xmodule/course_module.py:361
 msgid "PDF Textbooks"
@@ -2538,7 +2538,7 @@ msgid ""
 "For HTML textbooks that appear as separate tabs in the course, enter the "
 "name of the tab (usually the title of the book) as well as the URLs and "
 "titles of each chapter in the book."
-msgstr "独立したタブとしてHTML教科書を表示する場合、タブ名 (通常は本のタイトル) と本の各章のURLおよびタイトルを入力してください。"
+msgstr "独立したタブとしてHTML教科書を表示する場合、タブ名（通常は本のタイトル）と各章のURLおよびタイトルを入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:373
 msgid "Remote Gradebook"
@@ -2569,7 +2569,7 @@ msgid ""
 "Allow course instructors to assign CCX Coach roles, and allow coaches to "
 "manage Custom Courses on edX. When false, Custom Courses cannot be created, "
 "but existing Custom Courses will be preserved."
-msgstr "講師がCCXコーチを任命し、コーチがカスタム講座を管理します。falseの場合、カスタム講座は作れませんが、既存のカスタム講座は継続されます。"
+msgstr "講師がCCXコーチを任命し、コーチがカスタム講義を管理します。falseの場合、カスタム講義は作れませんが、既存のカスタム講義は継続されます。"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content.
@@ -2591,7 +2591,7 @@ msgstr "匿名のディスカッション投稿を許可する"
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
-msgstr "true または false を入力してください。true の場合、受講者は全ユーザーに対して匿名でディスカッションに投稿できます。"
+msgstr "true または false を入力してください。trueの場合、受講者は全ユーザーに対して匿名でディスカッションに投稿できます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:411
 msgid "Allow Anonymous Discussion Posts to Peers"
@@ -2602,7 +2602,7 @@ msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
-msgstr "true または false を入力してください。true の場合、受講者は他の受講者に匿名でディスカッションを投稿できます。この設定は講座スタッフ宛の投稿には機能しません。"
+msgstr "true または false を入力してください。trueの場合、受講者は他の受講者に匿名でディスカッションを投稿できます。この設定は講義スタッフ宛の投稿には機能しません。"
 
 #: common/lib/xmodule/xmodule/course_module.py:419
 #: common/lib/xmodule/xmodule/library_root_xblock.py:34
@@ -2611,28 +2611,28 @@ msgstr "詳細モジュール一覧"
 
 #: common/lib/xmodule/xmodule/course_module.py:420
 msgid "Enter the names of the advanced modules to use in your course."
-msgstr "講座で使用する詳細モジュール名を入力してください。"
+msgstr "講義で使用する詳細モジュール名を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:425
 msgid "Course Home Sidebar Name"
-msgstr "講座ホームのサイドバー名称"
+msgstr "講義ホームのサイドバー名称"
 
 #: common/lib/xmodule/xmodule/course_module.py:427
 msgid ""
 "Enter the heading that you want students to see above your course handouts "
 "on the Course Home page. Your course handouts appear in the right panel of "
 "the page."
-msgstr "講座ホーム画面で講座ハンドアウトの上部に表示したいヘッダーを入力してください。ハンドアウトは画面右側に表示されます。"
+msgstr "講義ホーム画面で講義ハンドアウトの上部に表示したいヘッダーを入力してください。ハンドアウトは画面右側に表示されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:431
 msgid "Course Handouts"
-msgstr "講座ハンドアウト"
+msgstr "講義ハンドアウト"
 
 #: common/lib/xmodule/xmodule/course_module.py:434
 msgid ""
 "True if timezones should be shown on dates in the course. Deprecated in "
 "favor of due_date_display_format."
-msgstr "講座にタイムゾーンを表示する場合、trueにします。due_date_display_format 推奨。"
+msgstr "講義にタイムゾーンを表示する場合、trueにします。due_date_display_format 推奨。"
 
 #: common/lib/xmodule/xmodule/course_module.py:440
 msgid "Due Date Display Format"
@@ -2651,7 +2651,7 @@ msgstr "外部ログインのドメイン"
 
 #: common/lib/xmodule/xmodule/course_module.py:449
 msgid "Enter the external login method students can use for the course."
-msgstr "受講者がこの講座で利用可能な外部ログインの方法を入力してください。"
+msgstr "受講者が講義で利用可能な外部ログインの方法を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:453
 msgid "Certificates Downloadable Before End"
@@ -2661,7 +2661,7 @@ msgstr "終了前に修了証ダウンロード可能"
 msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
-msgstr "true または false を入力してください。trueの場合、受講者が修了要件を満たしていれば、講座終了前でも修了証をダウンロードできます。"
+msgstr "true または false を入力してください。trueの場合、受講者が修了要件を満たしていれば、講義終了前でも修了証をダウンロードできます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:464
 msgid "Certificates Display Behavior"
@@ -2677,18 +2677,18 @@ msgid ""
 "to all students as soon as certificates are generated, enter "
 "early_with_info. To display only the links to passing students as soon as "
 "certificates are generated, enter early_no_info."
-msgstr "'end'、'early_with_info'、'early_no_info'のいずれかを入力してください。修了証が発行されると、合格した受講者はダッシュボードで修了証へのリンクを、不合格だった受講者は採点に関する情報を確認できます。デフォルトは'end'で、閉講後にこの情報が表示されます。修了証が発行されてすぐに全受講者に情報を表示するには'early_with_info'と入力してください。合格した受講者にのみリンクを表示するには'early_no_info'と入力してください。"
+msgstr "'end'、'early_with_info'、'early_no_info'のいずれかを入力してください。修了証が発行されると、合格した受講者はダッシュボードで修了証へのリンクを、不合格だった受講者は採点に関する情報を確認できます。デフォルトは'end'で、閉講後に情報が表示されます。修了証が発行されてすぐに全受講者に情報を表示するには'early_with_info'と入力してください。合格した受講者にのみリンクを表示するには'early_no_info'と入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:477
 msgid "Course About Page Image"
-msgstr "About ページ画像"
+msgstr "Course Aboutページ画像"
 
 #: common/lib/xmodule/xmodule/course_module.py:479
 msgid ""
 "Edit the name of the course image file. You must upload this file on the "
 "Files & Uploads page. You can also set the course image on the Settings & "
 "Details page."
-msgstr "画像ファイル名を入力してください。ファイル＆アップロードのページからファイルをアップロードする必要があります。また、詳細設定ページから画像を設定することもできます。"
+msgstr "画像ファイル名を入力してください。ファイル＆アップロードのページからファイルをアップロードする必要があります。また、詳細設定ページからも画像を設定できます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:487
 msgid "Course Banner Image"
@@ -2725,7 +2725,7 @@ msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the short name of the type of certificate that students receive"
 " when they complete the course. For instance, \"Certificate\"."
-msgstr "PDFの修了証を発行する時のみこの設定を使用してください。引用符の間に、講座修了時に受講者が受け取る修了証の略称を入力してください。例. \"修了証\""
+msgstr "PDFの修了証を発行する時のみこの設定を使用してください。引用符の間に、講義修了時に受講者が受け取る修了証の略称を入力してください。例. \"修了証\""
 
 #: common/lib/xmodule/xmodule/course_module.py:521
 msgid "Certificate Name (Short)"
@@ -2736,7 +2736,7 @@ msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the long name of the type of certificate that students receive "
 "when they complete the course. For instance, \"Certificate of Achievement\"."
-msgstr "PDFの修了証を発行する時のみこの設定を使用してください。引用符の間に、講座修了時に受講者が受け取る修了証の正式名称を入力してください。例. \"修了証明書\""
+msgstr "PDFの修了証を発行する時のみこの設定を使用してください。引用符の間に、講義修了時に受講者が受け取る修了証の正式名称を入力してください。例. \"修了証明書\""
 
 #: common/lib/xmodule/xmodule/course_module.py:531
 msgid "Certificate Name (Long)"
@@ -2748,7 +2748,7 @@ msgstr "Web/HTML表示が可能な修了証"
 
 #: common/lib/xmodule/xmodule/course_module.py:537
 msgid "If true, certificate Web/HTML views are enabled for the course."
-msgstr "true の場合、修了証のWeb/HTML 表示が可能です。"
+msgstr "trueの場合、修了証のWeb/HTML表示が可能です。"
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
@@ -2762,7 +2762,7 @@ msgstr "修了証のWeb/HTML表示オーバーライド"
 msgid ""
 "Enter course-specific overrides for the Web/HTML template parameters here "
 "(JSON format)"
-msgstr "Web/HTMLテンプレートパラメータの講座固有のオーバーライドを入力してください (JSONフォーマット)"
+msgstr "Web/HTMLテンプレートパラメータの講義固有のオーバーライドを入力してください (JSONフォーマット)"
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
@@ -2774,17 +2774,17 @@ msgstr "修了証設定"
 #. certificate web view
 #: common/lib/xmodule/xmodule/course_module.py:554
 msgid "Enter course-specific configuration information here (JSON format)"
-msgstr "講座特有の設定情報を入力してください (JSONフォーマット) "
+msgstr "講義固有の設定情報を入力してください (JSONフォーマット) "
 
 #: common/lib/xmodule/xmodule/course_module.py:568
 msgid "CSS Class for Course Reruns"
-msgstr "Course Rerun のCSSクラス"
+msgstr "Course RerunのCSSクラス"
 
 #: common/lib/xmodule/xmodule/course_module.py:569
 msgid ""
 "Allows courses to share the same css class across runs even if they have "
 "different numbers."
-msgstr "異なる講座番号であっても、同じCSSクラスをrunまたぎで共有することを許可する。"
+msgstr "異なる講義番号であっても、同じCSSクラスをrunまたぎで共有することを許可する。"
 
 #: common/lib/xmodule/xmodule/course_module.py:580
 msgid "Discussion Forum External Link"
@@ -2804,7 +2804,7 @@ msgstr "進捗タブを非表示にする。"
 
 #: common/lib/xmodule/xmodule/course_module.py:597
 msgid "Course Organization Display String"
-msgstr "講座提供機関の表示名"
+msgstr "講義提供機関の表示名"
 
 #: common/lib/xmodule/xmodule/course_module.py:599
 msgid ""
@@ -2812,11 +2812,11 @@ msgid ""
 "setting overrides the organization that you entered when you created the "
 "course. To use the organization that you entered when you created the "
 "course, enter null."
-msgstr "講座内で表示させたい講座提供組織名を入力します。この設定は、講座を作成時に入力した組織名より優先されます。作成時に入力した組織名を利用したい場合は、nullと入力してください。"
+msgstr "講義内で表示させたい講義提供組織名を入力します。この設定は、講義を作成時に入力した組織名より優先されます。作成時に入力した組織名を利用したい場合は、nullと入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:607
 msgid "Course Number Display String"
-msgstr "講座番号の表示文字列"
+msgstr "講義番号の表示文字列"
 
 #: common/lib/xmodule/xmodule/course_module.py:609
 msgid ""
@@ -2824,17 +2824,17 @@ msgid ""
 "overrides the course number that you entered when you created the course. To"
 " use the course number that you entered when you created the course, enter "
 "null."
-msgstr "講座内で表示させたい講座番号を入力します。この設定は、講座を作成時に入力した講座番号より優先されます。作成時に入力した講座番号を利用したい場合は、nullと入力してください。"
+msgstr "講義内で表示させたい講義番号を入力します。この設定は講義を作成時に入力した講義番号より優先されます。作成時に入力した講義番号を利用したい場合は、nullと入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:618
 msgid "Course Maximum Student Enrollment"
-msgstr "講座の受講定員"
+msgstr "講義の受講定員"
 
 #: common/lib/xmodule/xmodule/course_module.py:620
 msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow"
 " an unlimited number of students, enter null."
-msgstr "この講座の受講定員を入力します。受講者数を制限しない場合、この項目はnullと入力してください。"
+msgstr "講義の受講定員を入力します。受講者数を制限しない場合、この項目はnullと入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:627
 msgid "Allow Public Wiki Access"
@@ -2844,7 +2844,7 @@ msgstr "Wikiアクセスを許可する"
 msgid ""
 "Enter true or false. If true, edX users can view the course wiki even if "
 "they're not enrolled in the course."
-msgstr "true または falseを入力してください。true の場合、この講座に登録していなくてもこの講座Wikiを見ることができます。"
+msgstr "true または falseを入力してください。trueの場合、講義に登録していなくても講義Wikiを見ることができます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:637
 msgid "Invitation Only"
@@ -2852,7 +2852,7 @@ msgstr "招待制"
 
 #: common/lib/xmodule/xmodule/course_module.py:638
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr "受講登録を講座スタッフからの招待制に限定するかどうか"
+msgstr "受講登録を講義スタッフからの招待制に限定するかどうか"
 
 #: common/lib/xmodule/xmodule/course_module.py:644
 msgid "Pre-Course Survey Name"
@@ -2871,7 +2871,7 @@ msgid ""
 "Specify whether students must complete a survey before they can view your "
 "course content. If you set this value to true, you must add a name for the "
 "survey to the Course Survey Name setting above."
-msgstr "講座コンテンツが閲覧可能になる前に、受講前アンケート調査に回答しなければいけないかどうかを設定します。この値をtrueとした場合、上の講座アンケート調査名の設定に名称を入力してください。"
+msgstr "講義コンテンツが閲覧可能になる前に受講前アンケート調査に回答しなければいけないかどうかを設定します。この値をtrueとした場合、上の講義アンケート調査名の設定に名称を入力してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:663
 msgid "Course Visibility In Catalog"
@@ -2883,7 +2883,7 @@ msgid ""
 " This can be set to one of three values: 'both' (show in catalog and allow "
 "access to about page), 'about' (only allow access to about page), 'none' (do"
 " not show in catalog and do not allow access to an about page)."
-msgstr "カタログで講座を表示するためのアクセス権限を定義します。３パターンが設定可能です: '両方' (カタログに表示かつAboutページへのアクセス可能), 'about' (Aboutページへのアクセスのみ可能), 'なし' (カタログの表示およびAboutページへのアクセス共に不可)。"
+msgstr "カタログで講義を表示するためのアクセス権限を定義します。３パターンが設定可能です: '両方' (カタログに表示かつAboutページへのアクセス可能), 'About' (Aboutページへのアクセスのみ可能), 'なし' (カタログの表示およびAboutページへのアクセス共に不可)。"
 
 #: common/lib/xmodule/xmodule/course_module.py:672
 msgid "Both"
@@ -2892,7 +2892,7 @@ msgstr "両方"
 #: common/lib/xmodule/xmodule/course_module.py:673
 #: lms/djangoapps/branding/api.py:179
 msgid "About"
-msgstr "概要"
+msgstr "About"
 
 #: common/lib/xmodule/xmodule/course_module.py:674
 msgid "None"
@@ -2907,7 +2907,7 @@ msgid ""
 "Specify whether students must complete an entrance exam before they can view"
 " your course content. Note, you must enable Entrance Exams for this course "
 "setting to take effect."
-msgstr "講座コンテンツが閲覧可能になる前に、受講前試験を完了しなければいけないかどうかを指定します。この講座設定の受講前試験を有効にする必要があります。"
+msgstr "講義コンテンツが閲覧可能になる前に、受講前試験を完了しなければいけないかどうかを指定します。講義設定の受講前試験を有効にする必要があります。"
 
 #: common/lib/xmodule/xmodule/course_module.py:691
 msgid "Entrance Exam Minimum Score (%)"
@@ -2918,7 +2918,7 @@ msgid ""
 "Specify a minimum percentage score for an entrance exam before students can "
 "view your course content. Note, you must enable Entrance Exams for this "
 "course setting to take effect."
-msgstr "講座コンテンツが閲覧可能になる受講前試験の最低点を設定します。この講座設定の受講前試験を有効にする必要があります。"
+msgstr "講義コンテンツが閲覧可能になる受講前試験の最低点を設定します。講義設定の受講前試験を有効にする必要があります。"
 
 #: common/lib/xmodule/xmodule/course_module.py:701
 msgid "Entrance Exam ID"
@@ -2938,15 +2938,15 @@ msgid ""
 "provide a URL (such as the URL to a course About page) that social media "
 "sites can link to. URLs must be fully qualified. For example: "
 "http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
-msgstr "ダッシュボードのソーシャルシェアとカスタムな講座のURLを有効にすると、ソーシャルメディアのサイトで URL (講座のAboutページへのURLなど) を公開してリンクすることができます。URLは省略してはいけません。例: http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
+msgstr "ダッシュボードのソーシャルシェアとカスタム講義のURLを有効にすると、ソーシャルメディアのサイトで URL (講義のAboutページへのURLなど) を公開してリンクすることができます。URLは省略してはいけません。例: http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
 
 #: common/lib/xmodule/xmodule/course_module.py:718
 msgid "Course Language"
-msgstr "講座の言語"
+msgstr "講義に使用する言語"
 
 #: common/lib/xmodule/xmodule/course_module.py:719
 msgid "Specify the language of your course."
-msgstr "講座の言語を指定してください。"
+msgstr "講義に使用する言語を指定してください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:725
 msgid "Teams Configuration"
@@ -2974,7 +2974,7 @@ msgid ""
 "Enter true or false. If this value is true, proctored exams are enabled in "
 "your course. Note that enabling proctored exams will also enable timed "
 "exams."
-msgstr "true か false を入力します。true と設定すると、この講座では監督付試験実施が可能になります。監督付試験実施を可能にすると、時間制限付き試験も可能になることにご留意ください。"
+msgstr "true か false を入力します。trueと設定すると、監督付試験実施が可能になります。監督付試験実施を可能にすると、時間制限付き試験も可能になることにご留意ください。"
 
 #: common/lib/xmodule/xmodule/course_module.py:758
 msgid "Allow Opting Out of Proctored Exams"
@@ -2986,7 +2986,7 @@ msgid ""
 "proctored exams without proctoring. If this value is false, all learners "
 "must take the exam with proctoring. This setting only applies if proctored "
 "exams are enabled for the course."
-msgstr "trueまたはfalseを入力してください。trueと設定すると、監督付き試験を監督なしで受けることを選択できるようになります。falseと設定すると、全受講者は監督付きで試験を受けなければいけません。この設定は講座で監督付き試験が有効な場合に限り適用されます。"
+msgstr "trueまたはfalseを入力してください。trueと設定すると、監督付き試験を監督なしで受けることを選択できるようになります。falseと設定すると、全受講者は監督付きで試験を受けなければいけません。この設定は監督付き試験が有効な場合に限り適用されます。"
 
 #: common/lib/xmodule/xmodule/course_module.py:769
 msgid "Create Zendesk Tickets For Suspicious Proctored Exam Attempts"
@@ -3007,7 +3007,7 @@ msgid ""
 "Enter true or false. If this value is true, timed exams are enabled in your "
 "course. Regardless of this setting, timed exams are enabled if Enable "
 "Proctored Exams is set to true."
-msgstr "trueまたはfalseを入力してください。true と設定すると、あなたの講座で時間制限付き試験が有効となります。この設定にかかわらず、'監督付き試験を有効にする'がtrueに設定されている場合は時間制限付き試験も有効になります。"
+msgstr "trueまたはfalseを入力してください。true と設定すると、時間制限付き試験が有効となります。この設定にかかわらず、'監督付き試験を有効にする'がtrueに設定されている場合は時間制限付き試験も有効になります。"
 
 #: common/lib/xmodule/xmodule/course_module.py:788
 msgid "Minimum Grade for Credit"
